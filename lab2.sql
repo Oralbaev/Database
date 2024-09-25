@@ -16,10 +16,9 @@ VALUES
     9000000
 );
 
-INSERT INTO countries(country_id,country_name)      --task 4
+INSERT INTO countries(country_name)      --task 4
 VALUES
 (
-    2,
     'Finland'
 );
 
