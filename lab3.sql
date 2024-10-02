@@ -37,8 +37,10 @@ where department IN (
 );
 --13
 select name from employees
+where city = 'Almaty'
 union all
 select name from customers
+where city = 'Almaty'
 order by name;
 --14
 select *
