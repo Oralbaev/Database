@@ -43,6 +43,7 @@ SELECT AVG(purch_amt) FROM orders;
 
 --5
 SELECT COUNT(grade) FROM customers;
+where cust_name is not NULL;
 
 --6
 SELECT MIN(purch_amt) FROM orders;
